@@ -1,0 +1,106 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+1,Add-List,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:34:55","1. Given User Navigate to Cicle
+2. When User Click Board Menu
+3. And User Click Add List Button
+4. And User Input Board List
+5. And User Click Board List Button
+6. Then Verify Success Add List
+7. Then Close Web
+","
+
+
+
+
+
+
+","
+
+
+
+
+
+
+",,,"Not set",Normal,Automated,Functional,,,
+2,Add-Card,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:34:55","1. Given User Navigate to Cicle
+2. When User Click Board Menu
+3. And User Click Add Card Button
+4. And User Input Card
+5. And User Click New Card Button
+6. Then Verify Success Add Card
+","
+
+
+
+
+
+","
+
+
+
+
+
+",,,"Not set",Normal,Automated,Functional,,,
+3,Set-Complete-List-Card,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:34:56","1. Given User Navigate to Cicle
+2. When User Click Board Menu
+3. And User Click Dot Three Card Name
+4. And User Click Set Complete List Card
+5. Then Verify Complete Card is Success
+6. Then Close Web
+","
+
+
+
+
+
+","
+
+
+
+
+
+",,,"Not set",Normal,Automated,Functional,,,
+5,Open-Menu-Board,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:34:57","1. Given User Navigate to Cicle
+2. When User Click Board Menu
+3. Then Close Web
+","
+
+
+","
+
+
+",,,"Not set",Normal,Automated,Functional,,,
+4,Add-Empty-Card,Negative,2,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:34:56","1. Given User Navigate to Cicle
+2. When User Click Board Menu
+3. And User Click Add Card Button
+4. And User Click New Card Button
+5. Then Verify Card Name Cant Empty
+","
+
+
+
+
+","
+
+
+
+
+",,,"Not set",Normal,Automated,Functional,,,
+6,Add-Empty-Card-List,Negative,2,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:34:57","1. Given User Navigate to Cicle
+2. When User Click Board Menu
+3. And User Click Add List Button
+4. And User Click Board List Button
+5. Then Verify List Cant Empty
+6. Then Close Web
+","
+
+
+
+
+
+","
+
+
+
+
+
+",,,"Not set",Normal,Automated,Functional,,,

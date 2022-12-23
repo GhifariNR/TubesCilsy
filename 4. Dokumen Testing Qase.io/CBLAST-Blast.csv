@@ -1,0 +1,109 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+1,Open-Menu-Blast,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:33:42","1. Given User Navigate to Cicle Teams
+2. When User Click Blast Menu
+3. Then User successfully on blast menu
+","
+
+
+","
+
+
+",,,"Not set",Normal,Automated,Functional,,,
+2,Create-Blast-With-Field-Title-And-Description,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:33:42","1. Given User Navigate to Cicle Teams
+2. When User Click Blast Menu
+3. Then User Click Create Button
+4. And User Input Title
+5. And User Input Description
+6. And User Click Publish Button
+7. Then Web Close
+","
+
+
+
+
+
+
+","
+
+
+
+
+
+
+",,,"Not set",Normal,Automated,Functional,,,
+3,Create-Blast-With-Empty-Description,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:33:42","1. Given User Navigate to Cicle Teams
+2. When User Click Blast Menu
+3. Then User Click Create Button
+4. And User Input Title
+5. And User Click Publish Button
+6. Then Notify Successfully Add Blast
+","
+
+
+
+
+
+","
+
+
+
+
+
+",,,"Not set",Normal,Automated,Functional,,,
+4,Archive-Blast,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:33:42","1. Given User Navigate to Cicle Teams
+2. When User Click Blast Menu
+3. Then User Click Blast Post
+4. And User Click Dot Three
+5. And User Choose Archive Blast
+6. And User Click Yes for Archive
+7. Then Web Close
+","
+
+
+
+
+
+
+","
+
+
+
+
+
+
+",,,"Not set",Normal,Automated,Functional,,,
+5,Create-Blast-With-Empty-Title-And-Description,Negative,2,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:33:42","1. Given User Navigate to Cicle Teams
+2. When User Click Blast Menu
+3. Then User Click Create Button
+4. And User Click Publish Button
+5. Then Notify to verify Parameter Cant Empty is Pop up
+","
+
+
+
+
+","
+
+
+
+
+",,,"Not set",Normal,Automated,Functional,,,
+6,Create-Blast-With-Empty-Title,Negative,2,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:33:42","1. Given User Navigate to Cicle Teams
+2. When User Click Blast Menu
+3. Then User Click Create Button
+4. And User Input Description
+5. And User Click Publish Button
+6. Then Web Close
+","
+
+
+
+
+
+","
+
+
+
+
+
+",,,"Not set",Normal,Automated,Functional,,,

@@ -1,0 +1,75 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+1,"Open-Menu-Group Chat",Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:18:03","1. Given User Navigate to Cicle Staging
+2. When User Click GroupChat Menu
+3. Then Close Webs
+","
+
+
+","
+
+
+",,,Medium,Normal,Automated,Functional,,,
+2,Send-Message,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:18:03","1. Given User Navigate to Cicle Staging
+2. When User Click GroupChat Menu
+3. And User Input Message
+4. And User Click Submit Button
+5. Then Close Webs
+","
+
+
+
+
+","
+
+
+
+
+",,,Medium,Normal,Automated,Functional,,,
+3,Mention-Member,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:18:03","1. Given User Navigate to Cicle Staging
+2. When User Click GroupChat Menu
+3. And User Input Message
+4. And User Input @ Message
+5. And User Click People in shown
+6. And User Click Submit Button
+7. Then Close Webs
+","
+
+
+
+
+
+
+","
+
+
+
+
+
+
+",,,Medium,Normal,Automated,Functional,,,
+4,Upload-File,Positive,1,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:18:03","1. Given User Navigate to Cicle Staging
+2. When User Click GroupChat Menu
+3. And User Upload Attachment
+4. Then Close Webs
+","
+
+
+
+","
+
+
+
+",,,Medium,Normal,Automated,Functional,,,
+5,Send-Empty-Message,Negative,2,"Ghifari Naufal Rahman",0,Passed,"2022-12-23 12:18:03","1. Given User Navigate to Cicle Staging
+2. When User Click GroupChat Menu
+3. And User Click Submit Button
+4. Then Close Webs
+","
+
+
+
+","
+
+
+
+",,,Medium,Normal,Automated,Functional,,,
